@@ -1,0 +1,52 @@
+img.TheKnot_image1 {
+  float: left;
+  width: 75%;
+}
+
+h2.TheKnot {
+  margin: 0 80px;
+  font-size: 14px;
+}
+
+p.TheKnot {
+  margin: 0 80px;
+  font-size: 14px;
+}
+
+.TheKnot_1 {
+    float: right;
+    width: 75%;
+    text-align: right;
+}
+
+.content-spot h2.TheKnot_1 {
+  font-size: 30px;
+  margin: 20px 0;
+  line-height: 0px;
+}
+
+.content-spot .text-block.morePadding.TheKnot {
+  padding: 150px 100px 10px;
+  box-sizing: border-box;
+}
+
+.content-spotproduct-.space1 {
+  height: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+
+  img.TheKnot_image1 {
+    width: 100%;
+  }
+
+  .TheKnot_1 {
+      width: 100%;
+      text-align: right;
+  }
+
+  .content-spot .text-block.morePadding.TheKnot {
+    padding: 0 20px 20px;
+  }
+
+}
