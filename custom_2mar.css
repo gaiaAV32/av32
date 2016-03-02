@@ -388,10 +388,13 @@ p.article-link {
 
 
 /*about us - careers - affiliate*/
-.text-block.col-6.mob-col-12.aboutus {
-  padding-right: 30px;
-}
 
+.content.fixed-width.bottom {
+  margin-bottom: 50px;
+}
+.content.fixed-width.bottom>.text-block.col-6.mob-col-12 {
+  padding-right: 50px;
+}
 
 h1.job_info_title {
     font-family: Playfair display;
@@ -1052,7 +1055,19 @@ span.fur6 {
 
 /*end order confirmation page*/
 
+/*PDP*/
+.text-block.col-6.mob-col-12.PDPtext {
+  position: absolute;
+  left: 45%;
+  height: auto;
+  padding: 20px;
+  margin: 15% 0;
+  z-index: 10;
+  background: #ffffff;
+  display: inline-block;
+}
 
+/*end PDP*/
 
 /*********************************************************/
 
@@ -1600,4 +1615,15 @@ li.padded {
   }
 
 }
+
+/*PDP*/
+.text-block.col-6.mob-col-12.PDPtext {
+  position: relative;
+  height: auto;
+  left: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/*end PDP*/
 
