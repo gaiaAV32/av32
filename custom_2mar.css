@@ -23,6 +23,16 @@ figcaption {
   display: none;
 }
 
+h1.mag_title {
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+
 .content-spot .panel-link {
   height: auto;
 }
@@ -112,6 +122,7 @@ figcaption {
   font-weight: 500;
   font-size: 18px;
   line-height: 20px;
+  margin: 10px 0;
 }
 .content-spot.template-magazine-tiles h2 {
   margin: 20px 0;
@@ -164,6 +175,14 @@ figcaption {
 
 .template-text-block.image-text.notspaced {
   padding-bottom: 0px;
+}
+
+.content-spot .content .padded {
+  padding: 10px;
+}
+
+.content-spot .content .padded_side {
+  padding: 0 10px;
 }
 
 .content-spot .fixed-width.morePadding {
@@ -1001,6 +1020,20 @@ span.fur6 {
     width: 350px;
 }
 
+
+@media (min-width: 880px) and (max-width: 1024px) {
+
+  .owl-carousel-3.ipadLandscape .owl-item {
+      width: 335px ! important;
+      }
+  
+  .primary-content .content-asset h2.serif-heading {
+      font-size: 32px;
+      margin-top: 0;
+  }
+
+}
+
 @media only screen and (max-width: 1200px) {
     span.fur0, span.fur1, span.fur2, span.fur3, span.fur4, span.fur5, span.fur6 {
       color: #000000;
@@ -1016,7 +1049,6 @@ span.fur6 {
   }
 }
 /*end fur*/
-
 
 /*order confirmation page*/
 
@@ -1580,11 +1612,6 @@ li.padded {
 
   .figure {
     margin: 1em 0px;
-  }
-
-  .primary-content .content-asset h2 {
-    text-transform: uppercase;
-    font-weight: 600;
   }
 
   .content-spot.template-magazine-tiles-notgrey .magazine-tile {
