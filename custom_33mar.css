@@ -1047,21 +1047,130 @@ span.fur6 {
     justify-content: flex-start;
 }
 
+.checkbox.bottom {
+    padding-bottom: 200px;
+}
+
 .checkbox img {
   height: 500px;
   width: auto;
 }
 
-img.check1 {
+img.check {
+  padding: 10px;
+}
+
+img.check.one, img.check.three, img.check.five, img.check.seven, img.check.ten, img.check.eleven {
   padding-left: 100px;
 }
 
-span.check1 {
+
+span.check {
     position: absolute;
+}
+
+span.check.one {
     left: 10px;
     z-index: 1000;
     top: 200px;
 }
+
+span.check.two {
+    right: 700px;
+    z-index: 1000;
+    top: 400px;
+}
+
+span.check.three {
+    right: 500px;
+    z-index: 1000;
+    top: 400px;
+}
+
+span.check.four {
+    right: 330px;
+    z-index: 1000;
+    top: 400px;
+}
+
+span.check.five {
+    top: 900px;
+}
+
+span.check.six, span.check.seven {
+    right: 200px;
+    text-align: center;
+}
+span.check.six {
+    top: 700px;
+}
+span.check.seven {
+    top: 800px;
+}
+
+span.check.eight, span.check.nine {
+    left: 600px;
+    text-align: center;
+}
+span.check.eight {
+    top: 1200px;
+}
+span.check.nine {
+    top: 1300px;
+}
+
+span.check.ten {
+    right: 250px;
+    top: 1100px;
+    text-align: center;
+}
+
+span.check.eleven, span.check.thirteen {
+    top: 1600px;
+    text-align: center;
+}
+
+span.check.twelve {
+    top: 1900px;
+    text-align: center;
+    left: 450px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+span.check.thirteen {
+    text-align: center;
+    right: 150px;
+}
+
+span.check.fourteen {
+    top: 1800px;
+    right: 150px;
+}
+
+span.check.fifteen {
+    top: 2200px;
+    text-align: center;
+}
+
+span.check.sixteen {
+top: 3050px;
+    left: 200px;
+    text-align: center;
+}
+
+span.check.seventeen {
+    right: 300px;
+    top: 2300px;
+    text-align: center;
+}
+
+span.check.eighteen {
+    top: 2600px;
+    right: 700px;
+    text-align: center;
+}
+
 
 /*end check feature */
 
