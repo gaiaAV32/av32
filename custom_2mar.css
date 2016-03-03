@@ -907,6 +907,7 @@ img.padded {
 }
 
 @media only screen and (max-width: 900px) {
+  
     .no1 .text-block, .no3 .text-block {
     position: relative;
     left: 0;
@@ -918,6 +919,7 @@ img.padded {
     left: 0;
     width: 100%;
   }
+
   .no5 img {
   padding-left: 0px;
   }
@@ -1027,12 +1029,12 @@ span.fur6 {
       width: 335px ! important;
       }
   
-  .primary-content .content-asset h2.serif-heading {
-      font-size: 32px;
+  .content-spot.template-featured-products h2.serif-heading {
+      font-size: 28px;
       margin-top: 0;
   }
-
 }
+
 
 @media only screen and (max-width: 1200px) {
     span.fur0, span.fur1, span.fur2, span.fur3, span.fur4, span.fur5, span.fur6 {
