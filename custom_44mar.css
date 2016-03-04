@@ -1203,8 +1203,25 @@ span.check.eighteen {
 /*end details*/
 .details {
   display: flex;
+  justify-content:center;
 }
 
+span.details {
+  text-align: center;
+  display: block;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  z-index: 5;
+  font-family: "Poppins",Arial,sans-serif;
+}
+
+span.details.bottom {
+  padding-bottom: 200px;
+}
+
+img.details {
+  padding: 10px 10px 0px 10px;
+} 
 
 
 /*order confirmation page*/
@@ -1769,7 +1786,13 @@ li.padded {
     }
 /*end patti smith*/
 
+/*details*/
 
+  .details {
+    display: block;
+}
+
+/*end details*/
 
 
 /*about us*/

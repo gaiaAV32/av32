@@ -1203,6 +1203,12 @@ span.check.eighteen {
 /*end details*/
 .details {
   display: flex;
+  justify-content:center;
+}
+
+span.details {
+  text-align: center;
+  display: block;
 }
 
 
