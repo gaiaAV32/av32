@@ -156,6 +156,17 @@ h1.mag_title {
   margin: 20px auto;
 }
 
+.archive.landing.link h2 {
+    font-family: Poppins;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: right;
+    margin: 30px auto;
+    max-width: 1360px;
+}
 
 .content-spot .block-heading.archive h2,
 .content-spot.block-heading.archive h2 {
@@ -305,10 +316,13 @@ span.shopnow {
 
 /*magazine landing page */
 
-/*
-#main.full-width.clearfix {
-  max-width: none;
-}*/
+
+.slide.article img {
+  max-height: 700px;
+  width: auto;
+  margin: 0 auto;
+}
+
 
 #main.full-width.clearfix>.breadcrumb {
     margin: 0 auto;
@@ -928,10 +942,10 @@ img.padded {
 }
 
 .no5 img {
-  padding-left: 300px;
+  margin-left: 300px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) {
   
     .no1 .text-block, .no3 .text-block {
     position: relative;
@@ -1051,12 +1065,15 @@ span.fur6 {
 
 @media only screen and (max-width: 1200px) {
     span.fur0, span.fur1, span.fur2, span.fur3, span.fur4, span.fur5, span.fur6 {
-      color: #000000;
-      font-size: 15px;
+      color: #444;
+      font-size: 12px;
       left: 0;
       right: 0;
       position: relative;
+      letter-spacing: 1px;
+      line-height: 20px;
   }
+
     img.fur1, img.fur3 {
       position: relative;
       width: 100%;
@@ -1082,7 +1099,7 @@ span.fur6 {
 }
 
 
-.slide..article img.patricia.paragraph {
+.slide.article img.patricia.paragraph {
   display: block;
   margin: 0 auto;
   max-height: 200px;
@@ -1267,11 +1284,6 @@ p.Hero {
 
 .content.fixed-width.flex-container.hero {
   align-items: center;
-}
-
-.slide.article img {
-  max-height: 700px;
-  width: auto;
 }
 
 /*end hero*/
@@ -1751,13 +1763,19 @@ p.info_about {
     padding-left: 0px;
   }
 
+  .content-spot .text-block.morePadding.maiyet {
+    padding: 50px;
+  }
+
+
   span.check {
       position: inherit;
       display: block;
       padding-top: 30px;
       text-align: center;
   }
-  
+
+/*maiyet*/
     .no1 .text-block, .no3 .text-block {
     position: relative;
     left: 0;
@@ -1771,8 +1789,10 @@ p.info_about {
   }
 
   .no5 img {
-  padding-left: 0px;
+  margin-left: 0px;
   }
+
+/*end maiyet*/
 
 }
 
