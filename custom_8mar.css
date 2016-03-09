@@ -225,8 +225,18 @@ h1.mag_title {
   box-sizing: border-box;
 }
 
+.content-spot .fixed-width.bitPadding {
+  padding: 0px 100px 0px;
+  box-sizing: border-box;
+}
+
 .content-spot .fixed-width.muchmorePadding {
   padding: 0px 250px 0px;
+  box-sizing: border-box;
+}
+
+.content-spot .text-block.bitPadding {
+  padding: 5px 20px 10px;
   box-sizing: border-box;
 }
 
@@ -445,6 +455,22 @@ p.article-link {
 /*end magazine landing page */
 
 
+
+
+/*general article*/
+.content-spot .text-block.morePadding.titleArticle {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.titleArticle h1 {
+  font-size: 30px;
+}
+
+/*end general article*/
+
+
+
 /*about us - careers - affiliate*/
 
 .content.fixed-width.bottom {
@@ -522,6 +548,7 @@ img.job_info_title {
   padding: 5px 0px 10px 100px;
 }
 
+
 img.arrowKnot.vertical {
     width: auto;
     height: 140px;
@@ -574,10 +601,14 @@ img.half-screen {
 }
 
 span.span_wool {
-    position: absolute;
-    top: 200px;
-    right: 180px;
-    width: 100px;
+    color: #444;
+    font-size: 12px;
+    left: 0;
+    right: 0;
+    position: relative;
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding-bottom: 20px;
 }
 
 .Rectangle_1 {
@@ -1810,6 +1841,7 @@ p.info_about {
   padding: 0;
 }
 
+
 /*wang*/
 .content.fixed-width.muchmorePadding.Wang {
   padding: 20px;
@@ -1868,10 +1900,15 @@ p.textIntro {
 
 .text-block.left.col-6.mob-col-12.flex-container.leftComment {
 padding: 0;
+
 }
-.text-block.left.col-2.mob-col-12.leftComment {
-width: 100%;
+.text-block.left.col-2.mob-col-12.leftComment, 
+.text-block.left.col-2.mob-col-12.theknot {
+
+  width: 100%;
 }
+
+
 
 img.arrowKnot.horizontal, img.arrowKnot.vertical {
   display: none;
@@ -2075,4 +2112,6 @@ li.padded {
 }*/
 
 /*end PDP*/
+
+smaller
 
