@@ -625,6 +625,14 @@ span.span_wool {
 
 /*top10*/
 
+.content.fixed-width.flex-container.timeline {
+  flex-direction: row;
+}
+
+.content.fixed-width.flex-container.timeline.reverse {
+  flex-direction: row-reverse;
+}
+
 .flex-container.sideTimeline {
   align-items: center;
 }
@@ -1154,14 +1162,14 @@ span.fur6 {
   width: auto;
 }
 
-img.check {
+/*img.check {
   padding: 10px;
-}
+}*/
 
+/*
 img.check.one, img.check.three, img.check.five, img.check.seven, img.check.ten, img.check.eleven {
   padding-left: 100px;
 }
-
 
 span.check {
     position: absolute;
@@ -1268,13 +1276,13 @@ span.check.eighteen {
     right: 700px;
     text-align: center;
 }
-
+*/
 
 /*end check feature */
 
 /*details*/
 
-.details {
+.detailsArticle {
   display: flex;
   justify-content:center;
 }
@@ -1964,15 +1972,21 @@ li.padded {
 /*end victoria beckham*/
 
 /*top10*/
-  .dressLeft {
+
+  .content.fixed-width.flex-container.timeline {
+    display: block;
+  }
+
+
+.dressLeft {
     width: 100%;
   }
 
-  .content.fixed-width.muchmorePadding.flex-container {
+  .content.fixed-width.flex-container.timeline{
     flex-direction:column;
   }
 
-  .content.fixed-width.muchmorePadding.flex-container.reverse {
+ .content.fixed-width.flex-container.timeline {
     flex-direction:column-reverse;
   }
 
